@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товарів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Каталог товарів</h1>
+    </header>
+
+    <nav>
+        <ul id="categories"></ul>
+    </nav>
+    <input type="text" id="search" placeholder="🔍 Пошук товарів..." onkeyup="searchProducts()">
+    <main id="product-list"></main>
+
+    <script src="scripts.js"></script>
+    <button onclick="scrollToTop()" id="scrollBtn">⬆️ Вгору</button>
+</body>
+</html>
